@@ -1,0 +1,32 @@
+{
+  "name": "phone-simplifier",
+  "version": "0.1.0",
+  "description": "An NPM package for simplifying phone number",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalenguyen/phone-simplifier.git"
+  },
+  "keywords": [
+    "phone",
+    "phone number",
+    "format",
+    "number",
+    "phone-simplifier"
+  ],
+  "author": "Dale Nguyen <dungnq@itbox4vn.com> (http://dalenguyen.me)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dalenguyen/phone-simplifier/issues"
+  },
+  "homepage": "https://github.com/dalenguyen/phone-simplifier#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "typescript": "^2.8.3"
+  }
+}
