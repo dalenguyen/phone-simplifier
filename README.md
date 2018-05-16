@@ -1,4 +1,5 @@
 # phone-simplifier
+[![Build Status](https://travis-ci.org/dalenguyen/phone-simplifier.svg?branch=master)](https://travis-ci.org/dalenguyen/phone-simplifier)
 An NPM package for simplifying phone number
 
 The phone number is only formated basing on North America (+1) at the moment. 
