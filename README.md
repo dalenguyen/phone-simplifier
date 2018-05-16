@@ -3,11 +3,19 @@ An NPM package for simplifying phone number
 
 The phone number is only formated basing on North America (+1) at the moment. 
 
+## Installation 
+
+Install using [__npm__](https://www.npmjs.com/).
+
+```sh
+npm install phone-simplifier
+```
+
 ## Usage 
 
 ### Simplify your phone number 
 
-```
+```sh
 const phone = require('phone-simplifier')
 
 let simplifiedPhoneNumber = phone.simplify('phone-number-string');
@@ -15,7 +23,7 @@ let simplifiedPhoneNumber = phone.simplify('phone-number-string');
 
 Examples: 
 
-```
+```sh
 +1 (234) 567-8910   => +1 (234) 567-8910
 +12345678910        => (234) 567-8910
 2345678910          => (234) 567-8910
@@ -24,7 +32,7 @@ Examples:
 
 ### Get clean phone number 
 
-```
+```sh
 const phone = require('phone-simplifier')
 
 let simplifiedPhone = phone.clean('phone-number-string');
@@ -32,7 +40,7 @@ let simplifiedPhone = phone.clean('phone-number-string');
 
 Examples: 
 
-```
+```sh
 +1 (234) 567-8910   => +12345678910
 234-567-8910        => 2345678910
 ```
