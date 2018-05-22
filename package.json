@@ -1,6 +1,6 @@
 {
   "name": "phone-simplifier",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An NPM package for simplifying phone number",
   "main": "dist/index.js",
   "scripts": {

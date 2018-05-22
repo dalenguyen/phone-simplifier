@@ -44,3 +44,10 @@ describe('Get phone number only with country code', () => {
         expect(result).to.equal('+12345678910');
     })
 })
+
+describe('Phone number is empty', () => {
+    it('Return empty string', () => {
+        var result = phone.simplify('() ');
+        expect(result).to.equal('');
+    })
+})

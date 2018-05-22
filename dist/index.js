@@ -21,6 +21,9 @@ exports.simplify = (phoneNumber) => {
             phoneFormated = phoneFormated + phoneNumber.substr(2, 3) + ') ';
             phoneFormated = phoneFormated + phoneNumber.substr(5, 3) + '-';
         }
+        else if (phoneNumber === '') {
+            return phoneFormated;
+        }
         else {
             phoneFormated = phoneFormated + '(' + phoneNumber.substr(0, 3) + ') ';
             phoneFormated = phoneFormated + phoneNumber.substr(3, 3) + '-';

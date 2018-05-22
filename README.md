@@ -30,6 +30,7 @@ Examples:
 +12345678910        => (234) 567-8910
 2345678910          => (234) 567-8910
 234-567-8910        => (234) 567-8910
+<empty or special characters> => <empty string>
 ```
 
 ### Get clean phone number 
